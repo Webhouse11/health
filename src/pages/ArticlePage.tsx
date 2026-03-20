@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { Clock, User, Calendar, Share2, ChevronRight, MessageCircle } from 'lucide-react';
 import { POSTS } from '../data/posts';
 import ArticleCard from '../components/ArticleCard';
+import AdBanner from '../components/AdBanner';
 
 export default function ArticlePage() {
   const { slug } = useParams();
@@ -74,6 +75,9 @@ export default function ArticlePage() {
                 <li className="hover:text-emerald-600 cursor-pointer transition-colors">Practical Tips</li>
                 <li className="hover:text-emerald-600 cursor-pointer transition-colors">Conclusion</li>
               </ul>
+              <div className="mt-12">
+                <AdBanner format="vertical" className="min-h-[600px]" />
+              </div>
             </div>
           </aside>
 
@@ -82,6 +86,8 @@ export default function ArticlePage() {
             <div className="prose prose-lg prose-emerald max-w-none">
               <ReactMarkdown>{post.content}</ReactMarkdown>
             </div>
+
+            <AdBanner format="fluid" className="mt-12" />
 
             {/* Author Bio */}
             <div className="mt-20 p-8 bg-gray-50 rounded-3xl flex flex-col md:row gap-8 items-center md:items-start">

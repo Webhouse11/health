@@ -4,6 +4,7 @@ import { ArrowRight, TrendingUp, Sparkles, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { POSTS, CATEGORIES } from '../data/posts';
 import ArticleCard from '../components/ArticleCard';
+import AdBanner from '../components/AdBanner';
 
 export default function Home() {
   const sortedPosts = [...POSTS].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -54,6 +55,10 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <AdBanner format="horizontal" />
+      </div>
 
       {/* Categories Overview */}
       <section className="bg-gray-50 py-20">

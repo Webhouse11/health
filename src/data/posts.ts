@@ -52,6 +52,36 @@ export const CATEGORIES: CategoryInfo[] = [
 ];
 
 export const POSTS: Post[] = [
+  {
+    id: 'f6',
+    slug: 'post-workout-recovery-tips',
+    title: '5 Post-Workout Recovery Tips for Faster Results',
+    excerpt: 'Maximize your gains and minimize soreness with these science-backed recovery strategies.',
+    content: '# 5 Post-Workout Recovery Tips\n\nWhat you do after your workout is just as important as the workout itself. Recovery is the period where your muscles repair, strengthen, and grow, and neglecting this phase can lead to plateauing or even injury. To get the most out of your training, you need to prioritize strategies that facilitate blood flow, reduce inflammation, and replenish energy stores. Active recovery, such as light walking or swimming, can be more effective than complete rest as it keeps the blood circulating without adding significant stress to the body.\n\nHydration and nutrition are the cornerstones of effective recovery. Aim to consume a mix of high-quality protein and complex carbohydrates within 60 minutes of finishing your session to jumpstart muscle protein synthesis and glycogen replenishment. Additionally, incorporating foam rolling or massage can help release myofascial tension and improve range of motion. Don\'t underestimate the power of a good night\'s sleep; it is during deep sleep that your body releases growth hormones essential for tissue repair. By making recovery a non-negotiable part of your fitness routine, you\'ll find yourself returning to your next workout stronger and more energized.',
+    category: 'Fitness & Exercise',
+    author: { name: 'Elena Rodriguez', role: 'Fitness Coach', avatar: 'https://i.pravatar.cc/150?u=elena', bio: 'Elena is a certified personal trainer focusing on functional movement.' },
+    date: 'March 20, 2026', readTime: '7 min read', image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'n8',
+    slug: 'anti-inflammatory-foods-list',
+    title: 'Top 10 Anti-Inflammatory Foods to Add to Your Diet',
+    excerpt: 'Reduce chronic inflammation and boost your immune system with these powerful superfoods.',
+    content: '# Top 10 Anti-Inflammatory Foods\n\nChronic inflammation is linked to a wide range of health issues, from heart disease to autoimmune disorders. Fortunately, your diet is one of the most powerful tools you have for managing inflammation and supporting your body\'s natural healing processes. By focusing on whole, nutrient-dense foods rich in antioxidants and healthy fats, you can help dampen the inflammatory response and improve your overall vitality. Fatty fish like salmon and mackerel are excellent sources of omega-3 fatty acids, which are well-known for their potent anti-inflammatory properties.\n\nBerries, such as blueberries and strawberries, are packed with anthocyanins—antioxidants that reduce inflammation and boost immunity. Leafy greens like spinach and kale provide high levels of vitamins and minerals that protect against oxidative stress. Don\'t forget about spices like turmeric and ginger, which contain active compounds that have been used for centuries in traditional medicine to treat inflammatory conditions. Incorporating a variety of these superfoods into your daily meals can lead to improved joint health, better digestion, and a stronger immune system. Remember, a healthy diet is a diverse diet, so aim to "eat the rainbow" for maximum benefit.',
+    category: 'Nutrition & Diet',
+    author: { name: 'Marcus Thorne', role: 'Nutritionist', avatar: 'https://i.pravatar.cc/150?u=marcus', bio: 'Marcus specializes in holistic nutrition and performance dieting.' },
+    date: 'March 20, 2026', readTime: '9 min read', image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'm9',
+    slug: 'digital-detox-mental-health',
+    title: 'Why a Digital Detox is Essential for Your Mental Health',
+    excerpt: 'Reclaim your focus and reduce anxiety by intentionally stepping away from your screens.',
+    content: '# The Importance of a Digital Detox\n\nIn our hyper-connected world, we are constantly bombarded with notifications, news, and social media updates. This continuous stream of information can lead to "digital fatigue," characterized by increased anxiety, decreased focus, and disrupted sleep patterns. A digital detox—the intentional period of time spent away from electronic devices—is essential for allowing your brain to rest and reset. By stepping away from the screen, you can reconnect with the physical world, improve your interpersonal relationships, and rediscover hobbies that bring you genuine joy.\n\nTo start your digital detox, try setting specific "no-phone zones" in your home, such as the dining table or the bedroom. You can also designate certain times of the day, like the first hour after waking up or the last hour before bed, as screen-free periods. Use this time to engage in activities that nourish your mind and body, such as reading a physical book, practicing meditation, or going for a walk in nature. You\'ll likely find that after even a short break, your concentration improves and your stress levels decrease. A digital detox isn\'t about giving up technology forever; it\'s about creating a healthier, more balanced relationship with the digital world.',
+    category: 'Mental Health & Wellness',
+    author: { name: 'Dr. Sarah Chen', role: 'Psychologist', avatar: 'https://i.pravatar.cc/150?u=sarah', bio: 'Dr. Sarah Chen is a leading researcher in mental hygiene and emotional resilience.' },
+    date: 'March 19, 2026', readTime: '8 min read', image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=1200'
+  },
   // --- FITNESS ---
   {
     id: 'f1',
