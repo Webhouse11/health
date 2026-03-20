@@ -7,7 +7,9 @@ import { Filter, ChevronRight } from 'lucide-react';
 export default function CategoryPage() {
   const { slug } = useParams();
   const category = CATEGORIES.find(c => c.slug === slug);
-  const posts = POSTS.filter(p => p.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-') === slug);
+  const posts = POSTS
+    .filter(p => p.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-') === slug)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   if (!category) {
     return (

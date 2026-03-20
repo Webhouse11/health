@@ -38,10 +38,11 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-6 uppercase tracking-wider text-xs">Company</h3>
             <ul className="space-y-4 text-sm">
-              <li><Link to="/about" className="hover:text-emerald-500 transition-colors">About Us</Link></li>
+              <li><Link to="/about" className="hover:text-emerald-500 transition-colors">About us</Link></li>
               <li><Link to="/contact" className="hover:text-emerald-500 transition-colors">Contact</Link></li>
               <li><Link to="/privacy" className="hover:text-emerald-500 transition-colors">Privacy Policy</Link></li>
               <li><Link to="/terms" className="hover:text-emerald-500 transition-colors">Terms of Service</Link></li>
+              <li><Link to="/disclaimer" className="hover:text-emerald-500 transition-colors">Disclaimer</Link></li>
             </ul>
           </div>
 

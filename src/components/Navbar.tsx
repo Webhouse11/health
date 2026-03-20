@@ -7,11 +7,12 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const navLinks = [
+    { name: 'Home', path: '/' },
+    { name: 'About us', path: '/about' },
     { name: 'Fitness', path: '/category/fitness-exercise' },
     { name: 'Nutrition', path: '/category/nutrition-diet' },
     { name: 'Wellness', path: '/category/mental-health' },
     { name: 'Lifestyle', path: '/category/healthy-lifestyle' },
-    { name: 'About', path: '/about' },
   ];
 
   return (

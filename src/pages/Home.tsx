@@ -6,9 +6,10 @@ import { POSTS, CATEGORIES } from '../data/posts';
 import ArticleCard from '../components/ArticleCard';
 
 export default function Home() {
-  const featuredPost = POSTS.find(p => p.featured) || POSTS[0];
-  const trendingPosts = POSTS.filter(p => p.trending && p.id !== featuredPost.id);
-  const latestPosts = POSTS.filter(p => p.id !== featuredPost.id).slice(0, 6);
+  const sortedPosts = [...POSTS].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const featuredPost = sortedPosts.find(p => p.featured) || sortedPosts[0];
+  const trendingPosts = sortedPosts.filter(p => p.trending && p.id !== featuredPost.id);
+  const latestPosts = sortedPosts.filter(p => p.id !== featuredPost.id).slice(0, 6);
 
   return (
     <div className="space-y-20 pb-20">
