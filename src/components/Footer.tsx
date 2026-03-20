@@ -11,7 +11,7 @@ export default function Footer() {
             <Link to="/" className="flex items-center gap-2 mb-6">
               <HeartPulse className="w-8 h-8 text-emerald-500" />
               <span className="text-2xl font-bold tracking-tight text-white">
-                FitLife<span className="text-emerald-500">Journal</span>
+                HEALTH<span className="text-emerald-500">BOOST</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed mb-6">
@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:row justify-between items-center gap-4 text-xs">
-          <p>© 2026 FitLife Journal. All rights reserved.</p>
+          <p>© 2026 HEALTH BOOST. All rights reserved.</p>
           <p className="text-gray-500 italic">Medical Disclaimer: The information on this site is for educational purposes only and not a substitute for professional medical advice.</p>
         </div>
       </div>

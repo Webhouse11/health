@@ -23,7 +23,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <span className="text-emerald-600 font-bold uppercase tracking-[0.3em] text-xs mb-4 block">Welcome to FitLife Journal</span>
+            <span className="text-emerald-600 font-bold uppercase tracking-[0.3em] text-xs mb-4 block">Welcome to HEALTH BOOST</span>
             <h1 className="text-4xl md:text-7xl font-bold text-gray-900 mb-6 tracking-tight">
               HealthHub Pro – Your Ultimate <br className="hidden md:block" />
               Guide to <span className="text-emerald-600">Health and Wellness.</span>

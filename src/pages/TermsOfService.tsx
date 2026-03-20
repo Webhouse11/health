@@ -30,10 +30,10 @@ export default function TermsOfService() {
       <section className="max-w-4xl mx-auto px-4 py-16">
         <div className="prose prose-lg prose-emerald max-w-none text-gray-600 leading-relaxed">
           <p>
-            Welcome to FitLife Journal! These terms and conditions outline the rules and regulations for the use of FitLife Journal's Website, located at <span className="text-emerald-600 font-semibold">fitlifejournal.com</span>.
+            Welcome to HEALTH BOOST! These terms and conditions outline the rules and regulations for the use of HEALTH BOOST's Website, located at <span className="text-emerald-600 font-semibold">healthboost.com</span>.
           </p>
           <p>
-            By accessing this website we assume you accept these terms and conditions. Do not continue to use FitLife Journal if you do not agree to take all of the terms and conditions stated on this page.
+            By accessing this website we assume you accept these terms and conditions. Do not continue to use HEALTH BOOST if you do not agree to take all of the terms and conditions stated on this page.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4 flex items-center gap-3">
@@ -41,7 +41,7 @@ export default function TermsOfService() {
             1. Intellectual Property Rights
           </h2>
           <p>
-            Other than the content you own, under these Terms, FitLife Journal and/or its licensors own all the intellectual property rights and materials contained in this Website.
+            Other than the content you own, under these Terms, HEALTH BOOST and/or its licensors own all the intellectual property rights and materials contained in this Website.
           </p>
           <p>
             You are granted limited license only for purposes of viewing the material contained on this Website.
@@ -65,10 +65,10 @@ export default function TermsOfService() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">3. Your Content</h2>
           <p>
-            In these Website Standard Terms and Conditions, "Your Content" shall mean any audio, video text, images or other material you choose to display on this Website. By displaying Your Content, you grant FitLife Journal a non-exclusive, worldwide irrevocable, sub licensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media.
+            In these Website Standard Terms and Conditions, "Your Content" shall mean any audio, video text, images or other material you choose to display on this Website. By displaying Your Content, you grant HEALTH BOOST a non-exclusive, worldwide irrevocable, sub licensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media.
           </p>
           <p>
-            Your Content must be your own and must not be invading any third-party’s rights. FitLife Journal reserves the right to remove any of Your Content from this Website at any time without notice.
+            Your Content must be your own and must not be invading any third-party’s rights. HEALTH BOOST reserves the right to remove any of Your Content from this Website at any time without notice.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4 flex items-center gap-3">
@@ -76,17 +76,17 @@ export default function TermsOfService() {
             4. No warranties
           </h2>
           <p>
-            This Website is provided "as is," with all faults, and FitLife Journal express no representations or warranties, of any kind related to this Website or the materials contained on this Website. Also, nothing contained on this Website shall be interpreted as advising you.
+            This Website is provided "as is," with all faults, and HEALTH BOOST express no representations or warranties, of any kind related to this Website or the materials contained on this Website. Also, nothing contained on this Website shall be interpreted as advising you.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">5. Limitation of liability</h2>
           <p>
-            In no event shall FitLife Journal, nor any of its officers, directors and employees, be held liable for anything arising out of or in any way connected with your use of this Website whether such liability is under contract. FitLife Journal, including its officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this Website.
+            In no event shall HEALTH BOOST, nor any of its officers, directors and employees, be held liable for anything arising out of or in any way connected with your use of this Website whether such liability is under contract. HEALTH BOOST, including its officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this Website.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">6. Indemnification</h2>
           <p>
-            You hereby indemnify to the fullest extent FitLife Journal from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.
+            You hereby indemnify to the fullest extent HEALTH BOOST from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">7. Severability</h2>
@@ -96,17 +96,17 @@ export default function TermsOfService() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">8. Variation of Terms</h2>
           <p>
-            FitLife Journal is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review these Terms on a regular basis.
+            HEALTH BOOST is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review these Terms on a regular basis.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">9. Assignment</h2>
           <p>
-            The FitLife Journal is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.
+            The HEALTH BOOST is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">10. Entire Agreement</h2>
           <p>
-            These Terms constitute the entire agreement between FitLife Journal and you in relation to your use of this Website, and supersede all prior agreements and understandings.
+            These Terms constitute the entire agreement between HEALTH BOOST and you in relation to your use of this Website, and supersede all prior agreements and understandings.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">11. Governing Law & Jurisdiction</h2>

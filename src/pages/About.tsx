@@ -47,11 +47,11 @@ export default function About() {
       <section className="max-w-7xl mx-auto px-4 py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div>
-            <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-4 block">The FitLife Story</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-4 block">The HEALTH BOOST Story</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-8 leading-tight">Founded on the belief that health is a human right.</h2>
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p>
-                FitLife Journal started in 2024 as a small newsletter dedicated to simplifying complex medical research for everyday people. We saw a gap in the digital landscape: too much misinformation and not enough actionable, science-backed guidance.
+                HEALTH BOOST started in 2024 as a small newsletter dedicated to simplifying complex medical research for everyday people. We saw a gap in the digital landscape: too much misinformation and not enough actionable, science-backed guidance.
               </p>
               <p>
                 Today, we have grown into a global platform reaching millions. Our team consists of doctors, nutritionists, fitness experts, and journalists who share a common goal: making wellness accessible, enjoyable, and sustainable.

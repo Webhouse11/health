@@ -69,7 +69,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-1">Email</p>
-                    <p className="font-medium">contact@fitlifejournal.com</p>
+                    <p className="font-medium">contact@healthboost.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

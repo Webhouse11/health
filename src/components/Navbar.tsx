@@ -25,7 +25,7 @@ export default function Navbar() {
                 <HeartPulse className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-gray-900">
-                FitLife<span className="text-emerald-600">Journal</span>
+                HEALTH<span className="text-emerald-600">BOOST</span>
               </span>
             </Link>
           </div>

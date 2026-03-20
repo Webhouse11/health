@@ -33,14 +33,14 @@ export default function Disclaimer() {
             <div className="flex gap-4">
               <Info className="w-6 h-6 text-emerald-600 shrink-0" />
               <p className="text-emerald-900 font-medium m-0">
-                The information provided on FitLife Journal is for educational and informational purposes only and is not intended as medical advice.
+                The information provided on HEALTH BOOST is for educational and informational purposes only and is not intended as medical advice.
               </p>
             </div>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Medical Disclaimer</h2>
           <p>
-            The content on FitLife Journal, including text, graphics, images, and other material, is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+            The content on HEALTH BOOST, including text, graphics, images, and other material, is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
           </p>
           <p>
             Never disregard professional medical advice or delay in seeking it because of something you have read on this website. If you think you may have a medical emergency, call your doctor or emergency services immediately.
@@ -56,7 +56,7 @@ export default function Disclaimer() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">3. Affiliate Disclaimer</h2>
           <p>
-            FitLife Journal may contain links to affiliate websites, and we receive an affiliate commission for any purchases made by you on the affiliate website using such links. Our affiliates include but are not limited to Amazon Services LLC Associates Program and others.
+            HEALTH BOOST may contain links to affiliate websites, and we receive an affiliate commission for any purchases made by you on the affiliate website using such links. Our affiliates include but are not limited to Amazon Services LLC Associates Program and others.
           </p>
           <p>
             We only recommend products and services that we believe will add value to our readers. We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn advertising fees by linking to Amazon.com and affiliated websites.
@@ -73,12 +73,12 @@ export default function Disclaimer() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">5. Errors and Omissions Disclaimer</h2>
           <p>
-            While we have made every attempt to ensure that the information contained in this site has been obtained from reliable sources, FitLife Journal is not responsible for any errors or omissions, or for the results obtained from the use of this information. All information in this site is provided "as is", with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information.
+            While we have made every attempt to ensure that the information contained in this site has been obtained from reliable sources, HEALTH BOOST is not responsible for any errors or omissions, or for the results obtained from the use of this information. All information in this site is provided "as is", with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">6. Contact Us</h2>
           <p>
-            If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at <span className="text-emerald-600 font-semibold">contact@fitlifejournal.com</span> or through our <a href="/contact" className="text-emerald-600 hover:underline">Contact Page</a>.
+            If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at <span className="text-emerald-600 font-semibold">contact@healthboost.com</span> or through our <a href="/contact" className="text-emerald-600 hover:underline">Contact Page</a>.
           </p>
         </div>
       </section>
