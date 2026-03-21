@@ -832,6 +832,46 @@ export const POSTS: Post[] = [
     category: 'Emerging Trends & Tech',
     author: { name: 'Marcus Thorne', role: 'Tech Analyst', avatar: 'https://i.pravatar.cc/150?u=marcus', bio: 'Marcus tracks the intersection of tech and health.' },
     date: 'March 20, 2026', readTime: '15 min read', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'ph8',
+    slug: 'preventive-health-screenings-guide',
+    title: 'The Essential Guide to Preventive Health Screenings',
+    excerpt: 'Stay ahead of potential health issues with this comprehensive checklist of screenings for every age group.',
+    content: '# Preventive Health Screenings Guide\n\nPreventive medicine is the cornerstone of a long, healthy life. By identifying potential issues before they become serious, you can significantly improve your outcomes and maintain a higher quality of life. Health screenings are not just for when you feel sick; they are essential tools for proactive wellness that should be part of your regular healthcare routine. From blood pressure checks to more specialized tests like colonoscopies or mammograms, each screening serves as a vital checkpoint in your health journey.\n\nIn your 20s and 30s, the focus is often on baseline metrics like cholesterol, blood sugar, and skin checks. As you move into your 40s and beyond, the frequency and variety of screenings increase to include cancer screenings and bone density tests. It is important to work closely with your primary care physician to develop a personalized screening schedule based on your family history, lifestyle, and individual risk factors. Remember, early detection is the best defense against many chronic diseases. By staying informed and proactive, you are investing in your future self and ensuring that you can continue to live your most vibrant life for years to come.',
+    category: 'Preventive Health & Tips',
+    author: { name: 'Dr. Sarah Chen', role: 'Medical Expert', avatar: 'https://i.pravatar.cc/150?u=sarah', bio: 'Dr. Chen is a leading researcher in preventive medicine.' },
+    date: 'March 20, 2026', readTime: '11 min read', image: 'https://images.unsplash.com/photo-1505751172107-573225a91200?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'wl9',
+    slug: 'sustainable-weight-loss-strategies',
+    title: 'Sustainable Weight Loss: Beyond the Quick Fix',
+    excerpt: 'Learn why crash diets fail and how to build lasting habits for a healthier weight.',
+    content: '# Sustainable Weight Loss Strategies\n\nThe weight loss industry is flooded with "quick fix" solutions and restrictive diets that promise rapid results but often lead to frustration and weight regain. Sustainable weight loss is not about deprivation; it is about building a lifestyle that supports your long-term health and well-being. This requires a shift in focus from short-term goals to long-term habits that you can maintain for the rest of your life. By prioritizing nutrient-dense foods, regular movement, and mindful eating, you can achieve a healthy weight in a way that feels natural and enjoyable.\n\nOne of the most important aspects of sustainable weight loss is finding a way of eating that you actually like. This means moving away from "good" and "bad" foods and instead focusing on balance and moderation. It is also crucial to address the psychological aspects of eating, such as emotional triggers and stress-related habits. Incorporating strength training into your routine can also help boost your metabolism and improve your body composition. Remember, weight loss is a journey, not a destination. Be patient with yourself, celebrate your progress, and focus on the non-scale victories like increased energy and improved mood. By building a solid foundation of healthy habits, you can achieve lasting results and enjoy a more vibrant, active life.',
+    category: 'Weight Loss & Weight Management',
+    author: { name: 'Elena Rodriguez', role: 'Fitness Coach', avatar: 'https://i.pravatar.cc/150?u=elena', bio: 'Elena is a certified personal trainer focusing on functional movement.' },
+    date: 'March 20, 2026', readTime: '13 min read', image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'lp10',
+    slug: 'morning-routine-for-productivity',
+    title: 'The Ultimate Morning Routine for Peak Productivity',
+    excerpt: 'How to structure your first hour of the day to maximize focus, energy, and creativity.',
+    content: '# Peak Productivity Morning Routine\n\nHow you start your morning sets the tone for the rest of your day. A well-structured morning routine can help you cultivate focus, boost your energy levels, and increase your overall productivity. Instead of reaching for your phone the moment you wake up, try dedicating the first hour of your day to activities that nourish your mind and body. This "power hour" is your time to ground yourself and prepare for the challenges ahead, allowing you to move through your day with intention and clarity.\n\nStart with a glass of water to rehydrate your body after a night of sleep. Incorporate some form of movement, whether it is a full workout or just a few minutes of stretching, to get your blood flowing. Many high-achievers also find that practicing mindfulness or journaling in the morning helps clear their mind and set a positive intention for the day. Avoid checking emails or social media until you have completed your routine; this prevents you from being reactive to other people\'s priorities before you have addressed your own. By consistently following a morning routine that works for you, you can reclaim your time and energy, leading to a more focused and fulfilling life. Remember, the key to a successful routine is consistency, so find what works for you and stick with it.',
+    category: 'Lifestyle & Productivity',
+    author: { name: 'Marcus Thorne', role: 'Tech Analyst', avatar: 'https://i.pravatar.cc/150?u=marcus', bio: 'Marcus tracks the intersection of tech and health.' },
+    date: 'March 20, 2026', readTime: '10 min read', image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'sw11',
+    slug: 'supplements-guide-for-beginners',
+    title: 'A Beginners Guide to Supplements: What You Really Need',
+    excerpt: 'Navigate the complex world of vitamins and minerals with this evidence-based guide to essential supplementation.',
+    content: '# Beginners Guide to Supplements\n\nThe supplement market is vast and often confusing, with countless products claiming to improve everything from your energy levels to your immune system. While a balanced diet should always be your primary source of nutrients, supplements can play a valuable role in filling nutritional gaps and supporting specific health goals. However, it is important to approach supplementation with a critical eye and a focus on evidence-based guidance. Not all supplements are created equal, and some may even be unnecessary or harmful if taken in excess.\n\nBefore starting any new supplement, it is essential to consult with a healthcare professional to determine your individual needs. Common supplements that many people find beneficial include vitamin D, especially for those living in northern climates, and omega-3 fatty acids for heart and brain health. Magnesium is another popular choice for supporting sleep and muscle relaxation. When choosing a supplement, look for third-party testing and reputable brands to ensure quality and purity. Remember, supplements are meant to "supplement" a healthy lifestyle, not replace it. By focusing on a foundation of whole foods, regular movement, and quality sleep, you can maximize the benefits of any supplementation program and achieve your long-term health goals.',
+    category: 'Supplements & Wellness Products',
+    author: { name: 'Marcus Thorne', role: 'Nutritionist', avatar: 'https://i.pravatar.cc/150?u=marcus', bio: 'Marcus specializes in holistic nutrition and performance dieting.' },
+    date: 'March 20, 2026', readTime: '12 min read', image: 'https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=1200'
   }
 ];
 

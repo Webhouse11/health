@@ -85,7 +85,10 @@ export default function PrivacyPolicy() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">6. Google DoubleClick DART Cookie</h2>
           <p>
-            Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" className="text-emerald-600 hover:underline">https://policies.google.com/technologies/ads</a>
+            Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to <span className="text-emerald-600 font-semibold">healthboost.com</span> and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" className="text-emerald-600 hover:underline">https://policies.google.com/technologies/ads</a>
+          </p>
+          <p>
+            To comply with our disclosure obligation with respect to Google’s use of data, you can also find more information about <a href="https://policies.google.com/technologies/partner-sites" className="text-emerald-600 hover:underline font-semibold">How Google uses data when you use our partners’ sites or apps</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">7. Advertising Partners Privacy Policies</h2>
