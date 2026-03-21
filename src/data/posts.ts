@@ -802,6 +802,36 @@ export const POSTS: Post[] = [
     category: 'Emerging Trends & Tech',
     author: { name: 'Marcus Thorne', role: 'Tech Analyst', avatar: 'https://i.pravatar.cc/150?u=marcus', bio: 'Marcus tracks the intersection of tech and health.' },
     date: 'March 19, 2026', readTime: '9 min read', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'p7',
+    slug: 'science-of-sleep-circadian-rhythm',
+    title: 'The Science of Sleep: Optimizing Your Circadian Rhythm',
+    excerpt: 'Deep dive into the biological clock and how to align your lifestyle for restorative rest.',
+    content: '# The Science of Sleep\n\nSleep is not just a passive state of rest; it is a highly active biological process that is essential for every aspect of our health, from cognitive function and emotional regulation to immune strength and metabolic balance. At the heart of our sleep-wake cycle is the circadian rhythm—an internal 24-hour clock that responds primarily to light and darkness in our environment. When our lifestyle is out of sync with this natural rhythm, we experience "social jetlag," which can lead to chronic fatigue, mood disorders, and an increased risk of metabolic diseases like obesity and diabetes.\n\nOptimizing your circadian rhythm starts with light management. Exposure to bright, natural sunlight in the morning helps "anchor" your clock and signals to your brain that it is time to be alert. Conversely, minimizing exposure to blue light from screens in the evening is crucial for the natural production of melatonin, the hormone that facilitates sleep. We also recommend maintaining a consistent sleep schedule, even on weekends, and creating a "sleep sanctuary" that is cool, dark, and quiet. By understanding and respecting your body\'s biological clock, you can unlock a level of restorative rest that transforms your daily energy and long-term health. Remember, quality sleep is the ultimate performance enhancer.',
+    category: 'Preventive Health & Tips',
+    author: { name: 'Dr. Sarah Chen', role: 'Medical Expert', avatar: 'https://i.pravatar.cc/150?u=sarah', bio: 'Dr. Chen is a leading researcher in sleep medicine.' },
+    date: 'March 20, 2026', readTime: '12 min read', image: 'https://images.unsplash.com/photo-1511295742364-917e70351634?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 'n9',
+    slug: 'mindful-eating-healthy-relationship-food',
+    title: 'Mindful Eating: Developing a Healthy Relationship with Food',
+    excerpt: 'Move beyond restrictive dieting and learn to listen to your body\'s natural hunger cues.',
+    content: '# Mindful Eating Guide\n\nIn our fast-paced culture, eating has often become a mindless activity performed in front of screens or on the go. This disconnection from the act of nourishing ourselves can lead to overeating, poor digestion, and a strained relationship with food. Mindful eating is the practice of bringing full awareness to the experience of eating—noticing the colors, textures, and flavors of your food, as well as your body\'s internal signals of hunger and fullness. By slowing down and truly savoring each bite, you can rediscover the joy of eating and develop a more intuitive, balanced approach to nutrition.\n\nTo start practicing mindful eating, try to eliminate distractions during your meals. Turn off the TV, put away your phone, and focus entirely on the food in front of you. Chew slowly and pay attention to how the flavors change as you eat. It is also helpful to check in with your hunger levels before you start and halfway through the meal; ask yourself if you are eating out of physical need or emotional habit. By honoring your body\'s cues and choosing foods that truly nourish you, you can break free from the cycle of restrictive dieting and find a sustainable, enjoyable way to maintain your health. Remember, nutrition is about more than just calories; it is about the quality of your connection to what you consume.',
+    category: 'Nutrition & Diet',
+    author: { name: 'Marcus Thorne', role: 'Nutritionist', avatar: 'https://i.pravatar.cc/150?u=marcus', bio: 'Marcus specializes in holistic nutrition and mindful eating.' },
+    date: 'March 20, 2026', readTime: '10 min read', image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    id: 't8',
+    slug: 'future-of-longevity-biohacking',
+    title: 'The Future of Longevity: Biohacking and Beyond',
+    excerpt: 'Explore the cutting-edge science of life extension and how technology is pushing the limits of human aging.',
+    content: '# The Quest for Longevity\n\nThe quest for eternal youth is as old as humanity itself, but in 2026, it has moved from the realm of myth into the laboratory. Biohacking—the practice of using science, technology, and self-experimentation to optimize one\'s health and performance—is at the forefront of this movement. From wearable devices that monitor our every biomarker to advanced nutritional protocols and emerging therapies like senolytics (drugs that target "zombie" cells), the tools available for life extension are becoming increasingly sophisticated. The goal is not just to add years to our lives, but to add "life to our years" by maintaining peak physical and cognitive function for as long as possible.\n\nOne of the most exciting areas of longevity research is the study of epigenetics—how our lifestyle choices can influence the expression of our genes. By adopting specific habits like intermittent fasting, cold exposure, and targeted supplementation, we may be able to "turn on" longevity genes and "turn off" those associated with disease. While many of these interventions are still in the early stages of research, the potential for significantly extending the human healthspan is immense. However, it is important to approach biohacking with a critical eye and a focus on foundational health principles first. No high-tech intervention can replace the benefits of a balanced diet, regular movement, and deep social connections. As we look toward the future, the intersection of biology and technology promises a new era of human vitality where aging is no longer seen as an inevitable decline, but as a manageable biological process.',
+    category: 'Emerging Trends & Tech',
+    author: { name: 'Marcus Thorne', role: 'Tech Analyst', avatar: 'https://i.pravatar.cc/150?u=marcus', bio: 'Marcus tracks the intersection of tech and health.' },
+    date: 'March 20, 2026', readTime: '15 min read', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200'
   }
 ];
 

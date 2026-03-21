@@ -74,6 +74,35 @@ export default function About() {
         </div>
       </section>
 
+      {/* Advisory Board */}
+      <section className="max-w-7xl mx-auto px-4 py-24 border-t border-gray-100">
+        <div className="text-center mb-16">
+          <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-4 block">Expertise & Trust</span>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Medical Advisory Board</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">Our content is reviewed by a team of certified professionals to ensure you receive the most accurate and up-to-date health information.</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div className="text-center">
+            <img src="https://i.pravatar.cc/150?u=sarah" className="w-24 h-24 rounded-full mx-auto mb-6 object-cover border-4 border-emerald-50" alt="Dr. Sarah Chen" />
+            <h3 className="text-xl font-bold text-gray-900">Dr. Sarah Chen</h3>
+            <p className="text-emerald-600 font-medium text-sm mb-4">Chief Medical Officer</p>
+            <p className="text-gray-500 text-sm leading-relaxed">Board-certified Internist with over 15 years of experience in preventive medicine and public health research.</p>
+          </div>
+          <div className="text-center">
+            <img src="https://i.pravatar.cc/150?u=marcus" className="w-24 h-24 rounded-full mx-auto mb-6 object-cover border-4 border-emerald-50" alt="Marcus Thorne" />
+            <h3 className="text-xl font-bold text-gray-900">Marcus Thorne</h3>
+            <p className="text-emerald-600 font-medium text-sm mb-4">Head of Nutrition</p>
+            <p className="text-gray-500 text-sm leading-relaxed">Registered Dietitian specializing in metabolic health and performance nutrition for elite athletes.</p>
+          </div>
+          <div className="text-center">
+            <img src="https://i.pravatar.cc/150?u=elena" className="w-24 h-24 rounded-full mx-auto mb-6 object-cover border-4 border-emerald-50" alt="Elena Rodriguez" />
+            <h3 className="text-xl font-bold text-gray-900">Elena Rodriguez</h3>
+            <p className="text-emerald-600 font-medium text-sm mb-4">Fitness Strategy Lead</p>
+            <p className="text-gray-500 text-sm leading-relaxed">Certified Strength and Conditioning Specialist (CSCS) focused on functional movement and longevity.</p>
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
       <section className="bg-gray-50 py-24">
         <div className="max-w-7xl mx-auto px-4">

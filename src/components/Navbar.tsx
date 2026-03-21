@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Menu, X, HeartPulse } from 'lucide-react';
 import { cn } from '../lib/utils';
+import SearchOverlay from './SearchOverlay';
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const navLinks = [
     { name: 'Home', path: '/' },
@@ -41,7 +43,10 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <button className="p-2 text-gray-400 hover:text-gray-600 transition-colors">
+            <button 
+              onClick={() => setIsSearchOpen(true)}
+              className="p-2 text-gray-400 hover:text-emerald-600 transition-colors"
+            >
               <Search className="w-5 h-5" />
             </button>
             <Link
@@ -53,7 +58,13 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center gap-4">
+            <button 
+              onClick={() => setIsSearchOpen(true)}
+              className="p-2 text-gray-400 hover:text-emerald-600 transition-colors"
+            >
+              <Search className="w-6 h-6" />
+            </button>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 text-gray-600"
@@ -90,6 +101,7 @@ export default function Navbar() {
           </div>
         </div>
       )}
+      <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </nav>
   );
 }
